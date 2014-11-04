@@ -21,11 +21,12 @@ const UPDATE_INTERVAL = 5000;
 // I might move to using opaque strings rather than an enum in the future, though.
 const Timezones = {
 	'UTC': { hr: 0, min: 0, tzname: 'UTC' },
-        'America/Los Angeles': { hr: -8, min: 0, tzname: 'PST' },
-	'America/Los Angeles (Summer)': { hr: -7, min:0, tzname: 'PDT' },
-	'Australia/Adelaide': { hr: 9, min: 30, tzname: 'ACDT' },
-	'Australia/Adelaide (Summar)': { hr: 10, min: 30, tzname: 'ACDT' },
-	'Australia/Perth': { hr: 8, min: 0, tzname: 'WST' },
+        'Europe/Moscow': { hr: 3, min: 0, tzname: 'MSK' },
+        'Asia/Novosibirsk': { hr: 6, min: 0, tzname: 'MSK+3' },
+		'America/Los Angeles (Summer)': { hr: -7, min:0, tzname: 'PDT' },
+		'Australia/Adelaide': { hr: 9, min: 30, tzname: 'ACDT' },
+		'Australia/Adelaide (Summar)': { hr: 10, min: 30, tzname: 'ACDT' },
+		'Australia/Perth': { hr: 8, min: 0, tzname: 'WST' },
         'Australia/Melbourne': { hr: 10, min: 0, tzname: 'EST' },
         'Australia/Melbourne (Summer)': { hr: 11, min: 0, tzname: 'AEDT' },
         'Australia/Sydney': { hr: 10, min: 0, tzname: 'EST' },

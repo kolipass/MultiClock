@@ -1,7 +1,8 @@
 <schemalist>
   <enum id="org.gnome.shell.extensions.mibusMultiClock.tzs">
     <value value="1" nick="UTC" />
-    <value value="9" nick="America/Los Angeles" />
+    <value value="9" nick="Europe/Moscow" />
+    <value value="11" nick="Asia/Novosibirsk" />
     <value value="10" nick="America/Los Angeles (Summer)" />
     <value value="2" nick="Australia/Adelaide" />
     <value value="4" nick="Australia/Adelaide (Summer)" />
