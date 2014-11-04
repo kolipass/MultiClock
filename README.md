@@ -1,4 +1,5 @@
 *INFO*
+![GNOME-Shell "MultiClock"](https://dl.dropboxusercontent.com/u/16171515/screen.png)
 
 GNOME-Shell "MultiClock".
 
